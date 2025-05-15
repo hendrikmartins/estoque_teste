@@ -26,6 +26,9 @@ public class Produto {
         this.qtd = entity.getQtd();
     }
 
+    public Produto(String produtoTeste, double v, int i) {
+    }
+
     public String getNome() {
         return nome;
     }

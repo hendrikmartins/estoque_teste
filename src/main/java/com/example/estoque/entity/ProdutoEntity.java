@@ -14,7 +14,7 @@ public class ProdutoEntity {
     private Double preco;
     private Integer qtd;
 
-    public ProdutoEntity() {
+    public ProdutoEntity(Object o, String produtoA, String descriçãoA, double v, int i) {
     }
 
     public ProdutoEntity(Produto produto) {
